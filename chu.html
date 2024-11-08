@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>3D悬浮立体动态粒子爱心</title>
+<script type="importmap">
+{
+    "imports": {
+        "three": "https://threejs.org/build/three.module.min.js",
+        "three/addons/": "https://threejs.org/examples/jsm/",
+        "three/examples/jsm/": "https://threejs.org/examples/jsm/",
+        "gsap": "https://file.threehub.cn/js/gsap/index.js",
+        "dat.gui": "https://threehub.cn/js/dat.gui.module.js",
+        "@tweenjs/tween.js": "https://threehub.cn/js/tween.esm.js"
+    }
+}
+</script>
+<style>
+    body {
+        margin: 0;
+        padding: 1px;
+        box-sizing: border-box;
+        background-color: #1f1f1f;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    #box {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+<body>
+    <div id="box"></div>
+    <script type="module" src="chu.js"></script>
+</body>
+</html>
